@@ -27,3 +27,7 @@ The original dataset (`iotdata.csv`) is not included in this repository.
 ## Important note
 
 The original MSc work is kept separate from the newer research direction. Any later robustness, temporal, device-shift, threshold or imbalance analysis should not be presented as part of the original 2021 dissertation.
+
+## Dissertation document
+
+The dissertation itself is retained in the project files and is being kept separate from the newer research documentation. This repository will use a clean, readable record of the original work rather than mixing the dissertation with later experiments.
