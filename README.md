@@ -45,17 +45,32 @@ The raw CSV is not stored in this repository. See [Dataset](docs/03_dataset.md) 
 - [Dataset](docs/03_dataset.md)
 - [Basic methodology](docs/04_methodology.md)
 
+## Original MSc work
+
+- [Original MSc work](original_msc/README.md)
+- [Original Python code](original_msc/Aman.py)
+- [MSc dissertation](original_msc/dissertation/AmanGuptaDissertation_20101021.docx)
+- [MSc dissertation record](original_msc/dissertation_record.md)
+
 ## Repository structure
 
 ```text
 robust-iot-human-movement-prediction/
-├── data/
+├── README.md
 ├── docs/
+│   ├── 01_project_overview.md
+│   ├── 02_msc_background.md
+│   ├── 03_dataset.md
+│   └── 04_methodology.md
 ├── figures/
-├── notebooks/
-├── results/
-├── src/
-└── requirements.txt
+│   └── project-banner.svg
+└── original_msc/
+    ├── README.md
+    ├── Aman.py
+    ├── dissertation_record.md
+    └── dissertation/
+        ├── README.md
+        └── AmanGuptaDissertation_20101021.docx
 ```
 
-More detailed analysis and experiments will be kept separate from the basic project documentation so the original MSc work remains clear.
+The repository is being built in stages. The original MSc work is kept separate from any later research extension.
