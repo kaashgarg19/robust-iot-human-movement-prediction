@@ -44,6 +44,8 @@ The raw CSV is not stored in this repository. See [Dataset](docs/03_dataset.md) 
 - [MSc background](docs/02_msc_background.md)
 - [Dataset](docs/03_dataset.md)
 - [Basic methodology](docs/04_methodology.md)
+- [Dataset codebook](docs/05_codebook.md)
+- [Reproducibility](docs/06_reproducibility.md)
 
 ## Original MSc work
 
@@ -61,7 +63,9 @@ robust-iot-human-movement-prediction/
 │   ├── 01_project_overview.md
 │   ├── 02_msc_background.md
 │   ├── 03_dataset.md
-│   └── 04_methodology.md
+│   ├── 04_methodology.md
+│   ├── 05_codebook.md
+│   └── 06_reproducibility.md
 ├── figures/
 │   └── project-banner.svg
 └── original_msc/
