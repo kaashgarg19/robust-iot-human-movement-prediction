@@ -1,58 +1,40 @@
 # Robust IoT Human Movement Prediction
 
-![Project banner](figures/project-banner.svg)
+A research portfolio built from my MSc dissertation on predicting human movement near IoT devices using environmental sensor data and machine-learning methods.
 
-A research repository extending my MSc dissertation on predicting human movement near IoT devices using environmental sensor data and machine-learning methods.
+## Where this project started
 
-## Research direction
+My MSc dissertation at Birmingham City University explored whether environmental measurements from IoT devices could be used to predict human movement.
 
-**Robust Rare-Event Human Movement Prediction from Environmental IoT Sensors under Temporal and Device Distribution Shift**
+**Original dissertation:** *Intelligent System to Predict Human Movement near IoT Devices*
 
-The current work examines how reliably environmental IoT sensor data can predict rare human-movement events when evaluation includes severe class imbalance, chronological variation and previously unseen devices.
+This repository keeps the original work separate from the later re-analysis. That makes it easier to see what came from the MSc project and what I have done afterwards.
 
-### Main research question
+## Current project
 
-> How reliably can environmental IoT sensor data predict rare human-movement events under class imbalance, temporal variation and device-level distribution shift?
+I am using the original work as a starting point for a more careful analysis of rare movement events.
 
-## MSc foundation
+The current work looks at practical questions around:
+- uneven class distribution
+- chronological evaluation
+- differences between devices
+- feature sensitivity
+- threshold choice
+- reproducibility
 
-My MSc dissertation at Birmingham City University investigated human movement near IoT devices using environmental sensor telemetry and machine-learning/data-mining methods.
+I am treating this as ongoing analysis rather than presenting it as a finished published study.
 
-- **Degree:** MSc Advanced Computer Science
-- **University:** Birmingham City University, UK
-- **Result:** Distinction
-- **Original dissertation:** *Intelligent System to Predict Human Movement near IoT Devices*
+## Workflow
 
-The original MSc work and the later research extension are kept clearly separated in this repository.
-
-## Research workflow
-
-**IoT sensor data → Dataset audit → Preprocessing → Baseline modelling → Controlled evaluation → Temporal evaluation → Robustness analysis → Reproducible research record**
+**Original MSc work → data checks → reproducible analysis → controlled evaluation → additional checks**
 
 ## Dataset
 
-The project uses the **Environmental Sensor Telemetry Data** dataset published on Kaggle by **Gary A. Stafford**.
+The analysis uses environmental sensor telemetry data. The raw dataset is not redistributed here.
 
-The raw dataset is not stored in this repository. See [Dataset](docs/03_dataset.md) for source, structure, licensing and data-handling information.
+See [Dataset](docs/03_dataset.md) for the dataset description, source information and handling notes.
 
-## Current analysis
-
-The repository documents experiments covering:
-
-- Controlled random 60/20/20 evaluation
-- Chronological 60/20/20 evaluation
-- Rare-event class imbalance
-- Threshold selection using validation data
-- Unseen-device evaluation
-- Feature ablation
-- Threshold sensitivity
-- Temporal-gap sensitivity
-- Recall uncertainty analysis
-- Reproducibility and experiment tracking
-
-The repository reports experimental evidence rather than treating a single model score as the conclusion.
-
-## Repository map
+## Repository structure
 
 - [Project overview](docs/01_project_overview.md)
 - [MSc background](docs/02_msc_background.md)
@@ -60,22 +42,23 @@ The repository reports experimental evidence rather than treating a single model
 - [Methodology](docs/04_methodology.md)
 - [Codebook](docs/05_codebook.md)
 - [Reproducibility](docs/06_reproducibility.md)
+- [Original MSc work](original_msc/README.md)
+- Research documentation
 
-### Original MSc work
+## Original MSc work
 
-- [Original MSc README](original_msc/README.md)
-- [Original Python code](original_msc/Aman.py)
-- [MSc dissertation](original_msc/dissertation/AmanGuptaDissertation_20101021.docx)
-- [MSc dissertation record](original_msc/dissertation_record.md)
+The original Python work and dissertation are kept under original_msc/.
+
+That separation matters: the dissertation is the academic starting point, while the later files record the re-analysis and extensions.
 
 ## Tools
 
 Python · Pandas · NumPy · Scikit-learn · Matplotlib · Jupyter
 
-## Research status
+## Status
 
-This is an ongoing research portfolio project. The current repository distinguishes the original 2021 MSc work from subsequent analysis and documents the experimental setup and results used for future research development.
+This repository is a work in progress. I am documenting the data, code and decisions as I go rather than presenting unfinished work as a final publication.
 
-## Citation and reproducibility
+## Data and licensing
 
-Research documentation, codebooks, experimental logs and reproducibility materials are maintained alongside the analysis so that the workflow can be inspected and rerun.
+The repository does not claim ownership of third-party datasets. Dataset rights and source conditions remain with the original providers. Original code and documentation written for this repository are kept separate from third-party material.
