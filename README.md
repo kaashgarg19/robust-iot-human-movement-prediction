@@ -1,40 +1,30 @@
-# Robust IoT Human Movement Prediction
+# IoT Human Movement Prediction
 
-A research portfolio built from my MSc dissertation on predicting human movement near IoT devices using environmental sensor data and machine-learning methods.
+This repository brings together my MSc dissertation work and a careful re-analysis of the same general problem using environmental IoT sensor data.
 
-## Where this project started
+The project is intentionally organised as a record of the work rather than as a finished publication.
 
-My MSc dissertation at Birmingham City University explored whether environmental measurements from IoT devices could be used to predict human movement.
+## Where it started
 
-**Original dissertation:** *Intelligent System to Predict Human Movement near IoT Devices*
+My MSc dissertation at Birmingham City University was titled:
 
-This repository keeps the original work separate from the later re-analysis. That makes it easier to see what came from the MSc project and what I have done afterwards.
+*Intelligent System to Predict Human Movement near IoT Devices*
 
-## Current project
+The dissertation explored whether environmental measurements from IoT devices could be used with machine-learning methods to predict human movement.
 
-I am using the original work as a starting point for a more careful analysis of rare movement events.
+The original MSc material is kept under [original_msc](original_msc/).
 
-The current work looks at practical questions around:
-- uneven class distribution
-- chronological evaluation
-- differences between devices
-- feature sensitivity
-- threshold choice
-- reproducibility
+## What I am doing in this repository
 
-I am treating this as ongoing analysis rather than presenting it as a finished published study.
+I am working through the project in stages:
 
-## Workflow
+**original MSc work → data checks → reproducible analysis → documented evaluation**
 
-**Original MSc work → data checks → reproducible analysis → controlled evaluation → additional checks**
+The first priority is to make the original work understandable and reproducible before treating any later analysis as a separate extension.
 
-## Dataset
+For now, I am deliberately keeping detailed later experimental claims out of the front page. The repository should first show what the original project was, what data were used, what was checked and how the analysis was run.
 
-The analysis uses environmental sensor telemetry data. The raw dataset is not redistributed here.
-
-See [Dataset](docs/03_dataset.md) for the dataset description, source information and handling notes.
-
-## Repository structure
+## Repository guide
 
 - [Project overview](docs/01_project_overview.md)
 - [MSc background](docs/02_msc_background.md)
@@ -43,13 +33,12 @@ See [Dataset](docs/03_dataset.md) for the dataset description, source informatio
 - [Codebook](docs/05_codebook.md)
 - [Reproducibility](docs/06_reproducibility.md)
 - [Original MSc work](original_msc/README.md)
-- Research documentation
 
-## Original MSc work
+## Data
 
-The original Python work and dissertation are kept under original_msc/.
+The raw sensor dataset is not redistributed in this repository.
 
-That separation matters: the dissertation is the academic starting point, while the later files record the re-analysis and extensions.
+The dataset documentation records the source, variables and handling decisions. Third-party data remain subject to their original terms.
 
 ## Tools
 
@@ -57,8 +46,6 @@ Python · Pandas · NumPy · Scikit-learn · Matplotlib · Jupyter
 
 ## Status
 
-This repository is a work in progress. I am documenting the data, code and decisions as I go rather than presenting unfinished work as a final publication.
+This is an ongoing project. I am keeping the original MSc work, checks and later analysis separate so that a reader can see exactly what belongs to which stage.
 
-## Data and licensing
-
-The repository does not claim ownership of third-party datasets. Dataset rights and source conditions remain with the original providers. Original code and documentation written for this repository are kept separate from third-party material.
+No claim on this page should be read as a published research finding.
