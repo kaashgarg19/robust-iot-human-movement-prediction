@@ -5,24 +5,20 @@
 **MSc Advanced Computer Science — Distinction**  
 Birmingham City University, UK
 
-**BTech Computer Science Engineering**  
-Maharshi Dayanand University, India
+## Dissertation
 
-## MSc dissertation
+**Intelligent System to Predict Human Movement near IoT Devices**
 
-**Title:** *Intelligent System to Predict Human Movement near IoT Devices*
+## Project work
 
-The dissertation explored the use of environmental IoT sensor telemetry and machine-learning techniques to predict human movement near IoT devices.
+The MSc project used environmental IoT sensor data and machine-learning techniques to investigate human movement near IoT devices.
 
-## Original project work
+The work included:
 
-The MSc project included:
+- Data preparation
+- Data exploration
+- Visualisation
+- Machine-learning models
+- Model evaluation
 
-- Understanding the sensor dataset
-- Preparing the data for analysis
-- Exploring environmental sensor readings
-- Applying machine-learning models
-- Comparing model results
-- Visualising the data and results
-
-The work in this repository starts from that MSc foundation. Any later research experiments are kept separate from the original dissertation work.
+This MSc project provides the foundation for the work documented in this repository.

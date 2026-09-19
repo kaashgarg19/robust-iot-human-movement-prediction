@@ -1,0 +1,8 @@
+experiment_id,evaluation,model,metric,value,source_note
+E04,E04 random split,Logistic Regression,average_precision,0.003968,Audited canonical research record
+E05,E04 random split,Random Forest,average_precision,0.009638,Audited canonical research record
+E06,E04 random split,HistGradientBoosting,average_precision,0.009588,Audited canonical research record
+E07,E07 chronological split,Logistic Regression,average_precision,0.004150,Audited canonical research record
+E07,E07 chronological split,Random Forest,average_precision,0.002801,Audited canonical research record
+E07,E07 chronological split,HistGradientBoosting,average_precision,0.004028,Audited canonical research record
+E07,E07 chronological split,All models,temporal_test_positive_events,92,Audited canonical research record

@@ -1,40 +1,26 @@
 # Project Overview
 
-## What is this project?
+## Human Movement Prediction using IoT Data
 
-This project uses environmental IoT sensor data and machine-learning methods to study and predict human movement recorded by IoT devices.
+This project started as my MSc dissertation at Birmingham City University.
 
-It is based on my MSc dissertation work and is being organised into a separate research repository.
+**Original dissertation:** *Intelligent System to Predict Human Movement near IoT Devices*
 
-## Main idea
+### Aim
 
-Environmental sensors collect measurements such as temperature, humidity, light and gas-related readings. These readings can be analysed to identify patterns associated with human movement.
+The project uses environmental sensor readings from IoT devices to study and predict whether human movement is present near a device.
 
-## Project flow
+### Main areas
 
-```text
-Sensor data
-    ↓
-Data preparation
-    ↓
-Data exploration
-    ↓
-Machine-learning models
-    ↓
-Model results
-```
+- IoT sensor data
+- Data analysis
+- Machine learning
+- Human movement prediction
 
-## Main technologies
+### Project flow
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
+**IoT sensor data → Data preparation → Exploration → Machine learning → Evaluation**
 
-## Project documentation
+### Project status
 
-- [MSc background](02_msc_background.md)
-- [Dataset](03_dataset.md)
-- [Basic methodology](04_methodology.md)
+The repository contains the documented MSc project foundation and the dataset information used for the analysis. Further research work is kept separate from this basic project overview.

@@ -1,0 +1,9 @@
+model,original_msc_test_accuracy,source_note
+Random Forest,0.818182,Later tuned model-comparison table recovered from MSc dissertation
+XGBoost,0.801653,Model-comparison table recovered from MSc dissertation
+Logistic Regression,0.789256,Model-comparison table recovered from MSc dissertation
+Decision Tree,0.789256,Model-comparison table recovered from MSc dissertation
+Gradient Boosting,0.789256,Model-comparison table recovered from MSc dissertation
+KNN,0.785124,Model-comparison table recovered from MSc dissertation
+Gaussian NB,0.785124,Model-comparison table recovered from MSc dissertation
+SVC,0.719008,Model-comparison table recovered from MSc dissertation

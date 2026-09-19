@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Robust IoT Human Movement Prediction"
+message: "If you use this research repository, please cite it."
+type: software
+authors:
+  - family-names: "Gupta"
+    given-names: "Aman"
+repository-code: "https://github.com/kaashgarg19/robust-iot-human-movement-prediction"
+url: "https://github.com/kaashgarg19/robust-iot-human-movement-prediction"
+abstract: "Research repository for human movement prediction using environmental IoT sensor data, building on an MSc dissertation and subsequent experimental analysis."
+keywords:
+  - environmental IoT
+  - human movement
+  - machine learning
+  - rare-event prediction
+  - distribution shift
+  - reproducible research
+license: MIT
