@@ -1,6 +1,6 @@
 # IoT Human Movement Prediction
 
-This repository brings together my MSc dissertation work and a careful re-analysis of the same general problem using environmental IoT sensor data.
+This repository contains the research extension of my MSc project, focusing on reproducible analysis of human movement prediction using environmental IoT sensor data.
 
 The project is intentionally organised as a record of the work rather than as a finished publication.
 
@@ -12,13 +12,13 @@ My MSc dissertation at Birmingham City University was titled:
 
 The dissertation explored whether environmental measurements from IoT devices could be used with machine-learning methods to predict human movement.
 
-The original MSc material is kept under [original_msc](original_msc/).
+The original MSc work is preserved separately in the [dedicated MSc repository](https://github.com/kaashgarg19/iot-human-movement-prediction-msc).
 
 ## What I am doing in this repository
 
 I am working through the project in stages:
 
-**original MSc work → data checks → reproducible analysis → documented evaluation**
+**MSc foundation → data checks → reproducible analysis → documented evaluation**
 
 The first priority is to make the original work understandable and reproducible before treating any later analysis as a separate extension.
 
@@ -32,7 +32,7 @@ For now, I am deliberately keeping detailed later experimental claims out of the
 - [Methodology](docs/04_methodology.md)
 - [Codebook](docs/05_codebook.md)
 - [Reproducibility](docs/06_reproducibility.md)
-- [Original MSc work](original_msc/README.md)
+- [Original MSc repository](https://github.com/kaashgarg19/iot-human-movement-prediction-msc)
 
 ## Data
 
