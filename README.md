@@ -6,7 +6,7 @@
 
 **Environmental IoT · Machine Learning · Human Movement · Reproducible Evaluation**
 
-[Research CV](https://github.com/kaashgarg19/kaashgarg19/blob/main/Aman_Gupta_Research_CV.pdf) · [Research questions](docs/research_questions.md) · [Research proposal](docs/research_proposal.md) · [Literature review](docs/literature_review.md) · [Original MSc repository](https://github.com/kaashgarg19/iot-human-movement-prediction-msc) · [MSc foundation](docs/msc_foundation.md) · [Dataset](docs/dataset_documentation.md) · [Methodology](docs/methodology.md) · [Experiments](docs/experimental_protocol.md) · [Reproducibility](docs/reproducibility.md)
+[Research CV](https://github.com/kaashgarg19/kaashgarg19/blob/main/Aman_Gupta_CV.pdf) · [Research questions](docs/research_questions.md) · [Research proposal](docs/research_proposal.md) · [Literature review](docs/literature_review.md) · [Original MSc repository](https://github.com/kaashgarg19/iot-human-movement-prediction-msc) · [MSc foundation](docs/msc_foundation.md) · [Dataset](docs/dataset_documentation.md) · [Methodology](docs/methodology.md) · [Experiments](docs/experimental_protocol.md) · [Reproducibility](docs/reproducibility.md)
 
 </div>
 
