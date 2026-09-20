@@ -12,11 +12,11 @@
 
 ## Overview
 
-This repository develops a research extension of my MSc dissertation, *Intelligent System to Predict Human Movement near IoT Devices*.
+This repository is the research extension I am building from my MSc dissertation, *Intelligent System to Predict Human Movement near IoT Devices*.
 
-The original MSc work asked whether environmental sensor measurements from IoT devices could help predict human movement. I am using that same core problem as a starting point and examining the question more carefully under rare-event conditions and changes in the data over time and across devices.
+My original MSc work asked whether environmental sensor measurements from IoT devices could help predict human movement. I am using that same starting point now, but looking more closely at what happens when movement events are rare and when the data changes over time or between devices.
 
-I have deliberately kept the **original MSc work separate from the later research extension**. This makes it easier to see what was done in 2021, what has been reconstructed for transparency, and what belongs to the current research direction.
+I have kept the **original MSc work separate from this research extension**. That makes the progression easier to follow: what I did in 2021, what I reconstructed for transparency, and what belongs to the current research direction.
 
 ## Current research question
 
@@ -31,7 +31,7 @@ I have deliberately kept the **original MSc work separate from the later researc
 5. How does the decision threshold change the precision/recall trade-off for the movement class?
 6. How should model performance be interpreted when positive movement events are extremely rare?
 
-The working hypothesis is that a randomly mixed evaluation may give a more optimistic view of performance than an evaluation that separates later observations or unseen devices. This is a hypothesis to test, not a conclusion assumed in advance.
+The working hypothesis is that a randomly mixed evaluation may give a more optimistic view of performance than an evaluation that separates later observations or unseen devices. This is something I am testing, not assuming in advance.
 
 ## MSc foundation
 
@@ -42,7 +42,7 @@ Birmingham City University, UK · 2020–2021
 
 The original project included environmental sensor-data preparation, exploratory analysis, machine-learning classification, model comparison and discussion of limitations and future work.
 
-The historical implementation and reported results are preserved as a separate record. They are not presented as part of the current research-extension experiments.
+I keep the historical implementation and reported results as a separate record. They are not mixed into the current research-extension experiments.
 
 ## Dataset
 
@@ -83,7 +83,7 @@ The research notebook sequence makes the workflow easy to follow:
 
 The audited research record currently preserves average-precision values for the baseline and chronological evaluations in [results/canonical_research_metrics.csv](results/canonical_research_metrics.csv).
 
-These are **dataset-specific pilot results**. The current dataset covers a short period and only three devices, so the repository does not present them as universal performance claims, deployment evidence or proof that one classifier is generally superior.
+These are **dataset-specific pilot results**. The current dataset covers a short period and only three devices, so I am not presenting them as universal performance claims, deployment evidence or proof that one classifier is generally superior.
 
 ## Repository structure
 
@@ -107,11 +107,11 @@ The original dissertation material is kept separately from the current research 
 - [Historical results](docs/msc_results.md)
 - [Dissertation record](docs/dissertation.md)
 
-This separation is important: later temporal, device-shift, imbalance and threshold analyses were **not part of the original 2021 dissertation**.
+That separation matters: the later temporal, device-shift, imbalance and threshold analyses were **not part of the original 2021 dissertation**.
 
 ## Reproducibility
 
-The project documents the intended environment, dataset checks, split rules, model configurations, threshold-selection rule and required experiment metadata.
+I have documented the intended environment, dataset checks, split rules, model configurations, threshold-selection rule and experiment metadata so that future reruns can be traced back to a specific setup.
 
 For future canonical reruns, I record:
 
