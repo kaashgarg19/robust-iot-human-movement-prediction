@@ -231,19 +231,7 @@ The current study uses a public third-party dataset rather than newly collected 
 
 If future research introduces human-subject data or additional personal information, the appropriate ethics approval, consent and data-governance requirements would need to be considered before collection or analysis.
 
-## 14. What I would do if selected
-
-The work would begin from the evidence already established here rather than starting from a completely new problem.
-
-First, I would reproduce and strengthen the baseline experiments and complete the literature review with the supervisor. I would then define the distribution-shift conditions more precisely and test them systematically across time and devices.
-
-The next stage would be to investigate whether the observed performance changes can be explained by measurable changes in the sensor data, followed by calibration and sensitivity experiments. If a suitable external dataset is available, I would use it to test how far the evaluation approach transfers.
-
-The exact modelling techniques should remain open at this stage. If the evidence suggests that a different method is more appropriate, I would adapt the research direction rather than forcing the project to follow a predetermined algorithm.
-
-That is also how I would describe the project to a supervisor: **my MSc work gives me the starting point; the research question is about reliability under changing data; the experiments are how I intend to find out what actually happens.**
-
-## 15. Current status
+## 14. Current status
 
 ### Completed or documented
 
