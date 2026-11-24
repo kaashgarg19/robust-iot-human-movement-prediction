@@ -6,17 +6,28 @@
 
 **Environmental IoT · Machine Learning · Human Movement · Reproducible Evaluation**
 
-[Research CV](https://github.com/kaashgarg19/kaashgarg19/blob/main/Aman_Gupta_CV.pdf) · [Research summary](docs/research_summary.md) · [Research questions](docs/research_questions.md) · [Research proposal](docs/research_proposal.md) · [Literature review](docs/literature_review.md) · [Original MSc repository](https://github.com/kaashgarg19/iot-human-movement-prediction-msc) · [MSc foundation](docs/msc_foundation.md) · [Dataset](docs/dataset_documentation.md) · [Methodology](docs/methodology.md) · [Experiments](docs/experimental_protocol.md) · [Reproducibility](docs/reproducibility.md)
+[Research CV](https://github.com/kaashgarg19/kaashgarg19/blob/main/Aman_Gupta_CV.pdf) · [Research summary](docs/research_summary.md) · [Research questions](docs/research_questions.md) · [PhD research proposal](phd-research-proposal/research_proposal.md) · [Proposal folder guide](phd-research-proposal/README.md) · [Original research proposal](docs/research_proposal.md) · [Literature review](docs/literature_review.md) · [Original MSc repository](https://github.com/kaashgarg19/iot-human-movement-prediction-msc) · [MSc foundation](docs/msc_foundation.md) · [Dataset](docs/dataset_documentation.md) · [Methodology](docs/methodology.md) · [Experiments](docs/experimental_protocol.md) · [Reproducibility](docs/reproducibility.md)
 
 </div>
 
 ## Overview
 
-This repository is the research extension I am building from my MSc dissertation, *Intelligent System to Predict Human Movement near IoT Devices*.
+This repository documents the research extension I am developing from my MSc dissertation, *Intelligent System to Predict Human Movement near IoT Devices*.
 
-My original MSc work asked whether environmental sensor measurements from IoT devices could help predict human movement. I am using that same starting point now, but looking more closely at what happens when movement events are rare and when the data changes over time or between devices.
+My original MSc work asked whether environmental sensor measurements from IoT devices could help predict human movement. I have continued from that starting point by examining rare movement events, model evaluation over time and the possibility that results may change between sensing devices.
 
-I have kept the **original MSc work separate from this research extension**. That makes the progression easier to follow: what I did in 2021, what I reconstructed for transparency, and what belongs to the current research direction.
+The **original MSc work**, the **research completed and documented so far**, and the **proposed PhD research** are kept distinct. This makes it clear what has already been done and what is planned for doctoral study.
+
+## PhD research proposal
+
+The repository now includes a separate folder for the extended PhD proposal:
+
+- **[Read the PhD Research Proposal](phd-research-proposal/research_proposal.md)**
+- [Read the proposal folder guide](phd-research-proposal/README.md)
+
+This is a general PhD proposal draft that can be adapted for relevant university and supervisor applications in different countries. It develops the MSc research direction into a doctoral plan focused on temporal change, device variation, rare-event prediction, uncertainty, calibration and reproducible evaluation.
+
+The proposal clearly distinguishes the existing MSc and pilot research record from the doctoral experiments that remain to be carried out. Experiments E08–E24 are reserved for the PhD stage and are not presented as completed results. Before submission, the proposal should be tailored to the relevant supervisor, project, facilities and university requirements.
 
 ## Current research question
 
@@ -87,12 +98,13 @@ These are **dataset-specific pilot results**. The current dataset covers a short
 
 ```text
 iot-human-movement-prediction/
-├── data/       # data access notes
-├── docs/       # research documentation
-├── figures/    # research figures and diagrams
-├── notebooks/  # analysis workflow
-├── results/    # verified result artifacts
-├── src/        # reusable Python code
+├── data/                   # data access notes
+├── docs/                   # research documentation
+├── figures/                 # research figures and diagrams
+├── notebooks/               # analysis workflow
+├── phd-research-proposal/   # extended PhD proposal
+├── results/                 # verified result artifacts
+├── src/                     # reusable Python code
 └── requirements.txt
 ```
 
