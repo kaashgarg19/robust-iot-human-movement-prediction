@@ -69,11 +69,9 @@ The current research record includes:
 - baseline Logistic Regression, Random Forest and HistGradientBoosting models
 - stratified random evaluation
 - chronological hold-out evaluation
-- preliminary unseen-device evaluation
-- feature-ablation analysis
-- decision-threshold sensitivity analysis
-- recall uncertainty and precision-recall diagnostics where supported by the audited record
 - reproducibility documentation and experiment rules
+
+Experiments E08–E24 are reserved for the PhD stage. They are planned future work and are not presented as completed results.
 
 The research notebook sequence makes the workflow easy to follow:
 
