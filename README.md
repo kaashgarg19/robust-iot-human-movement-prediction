@@ -25,9 +25,7 @@ The repository now includes a separate folder for the extended PhD proposal:
 - **[Read the PhD Research Proposal](phd-research-proposal/research_proposal.md)**
 - [Read the proposal folder guide](phd-research-proposal/README.md)
 
-This is a general PhD proposal draft that can be adapted for relevant university and supervisor applications in different countries. It develops the MSc research direction into a doctoral plan focused on temporal change, device variation, rare-event prediction, uncertainty, calibration and reproducible evaluation.
-
-The proposal clearly distinguishes the existing MSc and pilot research record from the doctoral experiments that remain to be carried out. Experiments E08–E24 are reserved for the PhD stage and are not presented as completed results. Before submission, the proposal should be tailored to the relevant supervisor, project, facilities and university requirements.
+This proposal develops my MSc research direction into a doctoral study of temporal change, device variation, rare-event prediction, uncertainty, calibration and reproducible evaluation. It distinguishes the research completed so far from the proposed doctoral experiments. Experiments E08–E24 are reserved for the PhD stage.
 
 ## Current research question
 
