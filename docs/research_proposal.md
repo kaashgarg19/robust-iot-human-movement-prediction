@@ -99,13 +99,9 @@ The current research extension has so far included:
 - baseline Logistic Regression, Random Forest and HistGradientBoosting models;
 - stratified random evaluation;
 - chronological hold-out evaluation;
-- preliminary device-level evaluation;
-- feature-ablation analysis;
-- decision-threshold sensitivity analysis;
-- precision-recall and calibration-related diagnostics where supported by the audited record;
 - reproducibility documentation.
 
-Keeping these stages separate is deliberate. The later temporal, device-shift, imbalance and threshold analyses should not be presented as if they were part of the original 2021 dissertation.
+Experiments E08–E24 are reserved for the PhD stage. They are planned future work and should not be described as completed research. Their exact methods and order will be agreed during the PhD with supervisor guidance. Keeping these stages separate is deliberate: planned doctoral work should not be presented as if it has already been completed.
 
 ### 8.3 Evaluation design
 
@@ -241,9 +237,6 @@ If future research introduces human-subject data or additional personal informat
 - baseline models;
 - random evaluation;
 - chronological evaluation;
-- device-level evaluation record;
-- feature-ablation work;
-- threshold analysis;
 - reproducibility documentation;
 - public research repository.
 
