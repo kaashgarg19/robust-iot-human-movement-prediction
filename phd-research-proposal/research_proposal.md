@@ -4,8 +4,7 @@
 
 **Reliable Human-Movement Prediction from Environmental IoT Sensors Under Temporal and Device Distribution Shift**
 
-**Researcher:** Aman Gupta  
-**Document status:** PhD proposal draft for supervisor discussion and university applications
+**Researcher:** Aman Gupta
 
 ## 1. Research background
 
@@ -72,8 +71,6 @@ Research in human activity recognition, sensor-based machine learning and domain
 
 The focused opportunity is to investigate how temporal separation, device separation and rare-event imbalance interact in environmental-IoT human-movement prediction, and how these factors should be reflected in a transparent evaluation process. The study will connect measurable changes in sensor data with changes in model behaviour, rather than reporting model scores in isolation.
 
-This is a working research gap. It will be refined through a systematic literature review and discussion with the prospective supervisory team.
-
 ## 7. Research design and methodology
 
 The project will use an empirical, quantitative research design based on documented sensor datasets and reproducible machine-learning experiments.
@@ -114,8 +111,6 @@ The planned work is expected to cover:
 - **Adaptation and mitigation:** assess suitable monitoring or adaptation methods if the evidence shows that they are necessary and feasible.
 - **External validation:** evaluate transfer to another dataset only if sensor variables, event definitions and collection conditions are sufficiently comparable.
 - **Sensitivity and reproducibility:** test whether conclusions depend on split choices, model settings, preprocessing or threshold rules.
-
-The experiment plan will be refined rather than treating every item as mandatory regardless of feasibility. Any change to the plan will be documented.
 
 ### 7.4 Models and comparison
 
@@ -191,9 +186,3 @@ The repository provides supporting evidence of the work completed to date. The d
 4. Øren, A. E. et al. (2025). *Concept Drift Under Harsh Constraints: A Review of Potential Strategies for IoT Systems*. IEEE Access. DOI: 10.1109/ACCESS.2025.3622973.
 
 The literature review will be expanded and updated during proposal development. References and bibliographic details should be checked against the final university submission requirements.
-
-## 14. Proposal status and adaptation
-
-This document is a general PhD research proposal for discussion with prospective supervisors and for adapting to relevant doctoral opportunities. It is not tied to one country or university.
-
-Before each application, the proposal should be tailored to the supervisor's research, available datasets and facilities, the advertised project's requirements, and the university's requested length and format. The research question and core research direction should remain consistent, while the specific methods and scope may be refined with supervisor input.
