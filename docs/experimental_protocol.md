@@ -15,13 +15,25 @@ Evaluate human-movement prediction models under conventional and distribution-sh
 | E05 | Random Forest | Complete | Non-linear ensemble baseline |
 | E06 | Histogram Gradient Boosting | Complete | Additional non-linear model |
 | E07 | Chronological evaluation | Complete | Test performance on later observations |
-| E08 | Unseen-device evaluation | Complete in research record | Test cross-device generalisation; interpret cautiously because only three devices are available |
-| E09 | Feature ablation | Complete in research record | Measure performance changes when sensor inputs are removed |
-| E10 | Threshold sensitivity | Complete in research record | Examine precision/recall trade-offs across decision thresholds |
-| E11 | Temporal-gap sensitivity | Complete in research record | Examine sensitivity to separation between training and later observations |
-| E12 | Recall uncertainty | Complete in research record | Quantify uncertainty around recall on the temporal test set |
-| E13 | Precision-recall diagnostics | Complete in research record | Inspect ranking quality under extreme imbalance |
-| E14 | Calibration diagnostics | Complete in research record | Inspect probability reliability where supported by the audited analysis |
+| E08 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E09 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E10 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E11 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E12 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E13 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E14 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E15 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E16 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E17 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E18 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E19 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E20 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E21 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E22 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E23 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+| E24 | PhD-stage experiment (to be defined) | Planned for PhD | To be designed and carried out during the PhD with supervisor guidance |
+
+Experiments E08–E24 are reserved for the PhD stage. They have not been carried out as part of the current research record. Their exact questions, methods and order will be agreed during the PhD after the literature review and discussion with the supervisor.
 
 ## Canonical model configurations
 
